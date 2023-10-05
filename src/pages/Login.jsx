@@ -4,7 +4,7 @@ import LogInForm from "components/LogInForm/LogInForm";
 const Login = () => {
   return (
     <div>
-      <LogInForm/>
+      <LogInForm />
     </div>
   )
 };

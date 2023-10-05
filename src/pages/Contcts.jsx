@@ -6,6 +6,15 @@ import { useDispatch } from "react-redux";
 import { fetchContacts } from "redux/contacts/operations";
 
 
+const styles = {
+  container: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+};
+
 const Contacts = () => {
 
   const dispatch = useDispatch();
@@ -15,11 +24,11 @@ const Contacts = () => {
   },[dispatch])
 
   return (
-    <>
+    <div style={styles.container}>
       <ContactsForm/>
       <Filter />
       <ContactsList />
-    </>
+    </div>
   )
 };
 

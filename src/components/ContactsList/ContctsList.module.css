@@ -1,0 +1,38 @@
+.ul{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+
+.li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.p{
+  color: #fdfdfdbc;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+.button {
+  /* width: 150px; */
+  height: 40px;
+  font-weight: 700;
+  font-size: medium;
+  border: solid 1px;
+  border-radius: 6%;
+  background-color: rgb(112, 105, 97, 0.2);
+  color: #e49b2e;
+
+  &:hover,
+  &:focus {
+    color: #fdfdfdbc;
+    background-color: rgb(112, 105, 97, 0.9);
+  }
+}

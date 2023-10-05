@@ -1,0 +1,32 @@
+.div {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon{
+  fill: #e49b2e;
+  width: 20px;
+  height: 20px;
+}
+
+
+.p {
+  font-weight: 700;
+  font-size: 18px;
+  color: #e49b2e;
+}
+
+
+.button {
+  margin-left: 50px;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(112, 105, 97, 0);
+  color: #e49b2e;
+
+  &:hover,
+  &:focus {
+    color: #fdfdfdbc;
+  }
+}
