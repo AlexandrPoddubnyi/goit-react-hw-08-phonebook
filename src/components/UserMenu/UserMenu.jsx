@@ -13,11 +13,10 @@ export const UserMenu = () => {
 
   return (
     <div className={css.div}>
-      <svg className={css.icon} role="img" aria-label="user" >
-        <use href="../../images/icons.svg#icon-user-check"  width="16" height="16"></use>
-      </svg>
       <p className={css.p}>
-        
+        <svg className={css.icon} role="img" aria-label="user" >
+          <use href="../../images/icons.svg#icon-user-check" width="16" height="16"></use>
+        </svg>
         {user.name}
       </p>
       <svg className={css.icon} width="16" height="16" >
