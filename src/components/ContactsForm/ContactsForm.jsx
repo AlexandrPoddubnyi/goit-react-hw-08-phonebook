@@ -33,8 +33,9 @@ export const ContactsForm = () => {
         <input className={css.input}
           type="tel"
           name="number"
-          placeholder="Number"
+          placeholder="Tel number"
           required
+          pattern="[0-9]{3,20}"
         />
         <button className={css.button} type="submit">Add contact</button>
       </form>

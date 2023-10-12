@@ -2,7 +2,7 @@ import { useAuth } from "hooks/useAuth"
 import { useDispatch } from "react-redux";
 import { logout } from "redux/auth/operations";
 import css from './UserMenu.module.css'
-
+import sprite from "../../images/icons.svg"
 
 export const UserMenu = () => {
 
@@ -15,13 +15,10 @@ export const UserMenu = () => {
     <div className={css.div}>
       <p className={css.p}>
         <svg className={css.icon} role="img" aria-label="user" >
-          <use href="../../images/icons.svg#icon-user-check" width="16" height="16"></use>
+          <use href={sprite + "#icon-user-check"} width="16" height="16"></use>
         </svg>
         {user.name}
       </p>
-      <svg className={css.icon} width="16" height="16" >
-        <use href="../../images/symbols.svg#icon-cross" ></use>
-      </svg>
       <button className={css.button} type="button" onClick={handleLogOut}>Logout</button>
     </div>
   )

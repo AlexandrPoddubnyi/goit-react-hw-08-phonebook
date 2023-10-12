@@ -2,7 +2,7 @@ const styles = {
   container: {
     paddingLeft: 64,
     paddingRight: 64,
-    minHeight: 'calc(100vh - 50px)',
+    marginTop: 150,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
