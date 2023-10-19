@@ -3,7 +3,7 @@ import Layout from "./Layout/Layout";
 import Home from "pages/Home";
 import Registration from "pages/Registratin";
 import Login from "pages/Login";
-import Contacts from "pages/Contcts";
+import Contacts from "pages/Contacts";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { refreshUser } from "redux/auth/operations";
