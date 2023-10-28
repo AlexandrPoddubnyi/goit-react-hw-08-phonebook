@@ -4,8 +4,6 @@ import { Filter } from "components/FilterContacts/Filter";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { fetchContacts } from "redux/contacts/operations";
-import { refreshUser } from "redux/auth/operations";
-
 
 
 const styles = {

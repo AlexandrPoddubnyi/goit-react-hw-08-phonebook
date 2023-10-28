@@ -40,46 +40,9 @@ export const FilteredContacts = () => {
 };
 
 
-// const AllContacts = () => {
-
-//   const contacts = useSelector(selectItems);
-//   const dispatch = useDispatch();
-
-
-//   return (
-//     <ul className={css.ul}>
-//       {contacts.map(contact => (
-//         <li
-//           className={css.li}
-//           id={contact.id}
-//           key={contact.id}>
-//           <p className={css.p}>
-//             <b>{contact.name}</b> : {contact.number}
-//           </p>
-//           <button
-//             className={css.button}
-//             type="button"
-//             onClick={() => dispatch(deleteContact(contact.id))}
-//           >
-//             Delete</button>
-//         </li>
-//       ))}
-//     </ul>
-//   );
-// };
-
-
-
 
 export const ContactsList = () => {
-
-  // const filter = useSelector(selectFilter)
-
-
   return (
-    // <>
-    //   { !filter ? <AllContacts/> : <FilteredContacts />}
-    // </>
     <>
       <FilteredContacts/>
     </>
